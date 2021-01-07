@@ -1,0 +1,157 @@
+HTML & Javascript:
+
+.NET -> Network Enabled technology
+
+Network - It is a concept of accessing the certain resources
+from server. It was introduced in 1960's.
+
+LAN - Local Area Network EX:Office premises/within the building
+
+MAN - Metropolitan Area Network EX:within a city/cable/telephone/fibergrid
+
+WAN - Wide Area Network EX:Internet
+
+Internet - It is a concept of network and it was introduced in 1970's.
+
+Mail communication was possible by using internet and after that there was a requirement in industry that a 
+website creation is mandatory.
+
+Website - It is a collection of webpages.
+
+Webpage - It contains an information in the form of content or design to connect with this and can perform some
+actions.
+
+A webpage is classified into 2 parts,
+
+Static webpage and Dynamic webpage
+ 
+Static webpage - The user cannot interact with the page and it is read only. EX: Online newspaper, any website content
+
+To implement static web pages we need HTML
+
+About HTML:
+
+HTML - Hyper Text Markup Language
+
+Properties of HTML:
+*It is a presentation language
+*it is not a case sensitive
+*It is a platform independent
+*It was introduced by W3C
+
+Tags in HTML:
+
+<Head>,<Body>,<Document type>,<H1>to<H6>,
+<paragraph>,<href>,<br>,<ul>,<li>,<style>etc...
+
+Dynamic webpage:
+
+In this scenario user can interact with the page with some
+limitations
+
+EX:
+Registering with any websites/webapplication,login,etc.
+
+To implement dyanmic webpages we need HTML and Javascript
+
+HTML - Design and readonly
+
+javascript - Logic,validations
+
+About javascript:
+
+It is a scripting language
+
+it is a case sensitive scripting language
+
+A variable can be used directly without declaration
+
+EX:var i;
+
+javascript can be declared in both the head and body tags....
+
+Syntax:
+<head>
+<Script language = "javascript">
+</Script>
+</head>
+
+or
+
+<body>
+<Script language = "javascript">\
+</script>
+</body>
+
+Javascript classes:
+
+Math class - it is used to work with numeric function
+
+Date class
+Var d = new Date();
+d.GetDate()
+d.GetDateTime()
+d.GetYear()
+d.GetMonth()
+d.GetDay()
+d.GetHours()
+d.GetMinutes()
+d.GetSeconds()
+
+String Class:
+
+Var s ="abcd";
+S.indexOf("c")->2
+S.CharAt(1)->b
+
+Email ID Validation:
+
+*'@' should not be a first character
+*An email id must contains'@'
+*Minimum 1 char must be there in between @ and .
+*space should not be allowed between the characters
+
+S = f.t1.value(); -> @g.com
+p1 = S.IndexOf("@")
+p2 = S.IndexOf(".")
+D=p2-p1
+if(p1==0||d==1)
+{
+Alert("an entered emailid is invalid")
+}
+Else
+Alert("An entered email id is valid")
+
+HTML & JavaScript
+       |
+Microsoft - Asp3.0
+       |
+     Asp.Net
+Sun micro systems(java) - jsp
+       PHP
+
+Web Server - A WebServer is a software package which will provide the categorization 
+of webpages with in the websites
+
+We can create 2^120 websites towards a webserver
+
+The webserver for.NET is internet information services(IIS)
+
+Port Number: It is a logic which will connect the client system to the
+server system.
+
+The Default port number is 80/8080
+
+Virtual Directory - Virtual directory is an alias directory for the physical directory which will be used to host the application
+through internet manager(inetmgr)/IIS
+
+Inpage Technique - When the design part and coding part are maintained in the same page, hence it is 
+called as Inpage Technique
+
+EX:HTML,JQuery,HTML5 Web pages
+
+CodeBehind Technique - When the design part and coding part are being maintained in different pages, hence it is called as code behind
+technique
+
+EX:C#.net, vb.net, Asp.net
+ 
