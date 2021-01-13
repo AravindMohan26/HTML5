@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+     <Advertisements>
+       <Ad>
+         <ImageUrl>~/Ads/1.jpg</ImageUrl>
+         <NavigateUrl>http://www.google.com</NavigateUrl>
+         <AlternateText>AdRotator Control sample ads
+         </AlternateText>
+         <Impressions>20</Impressions>
+         <Keyword>Asp.Net</Keyword>
+      </Ad>
+      <Ad>
+        <ImageUrl>~/Ads/2.jpg</ImageUrl>
+        <NavigateUrl>http://csharpdotnetfreak.blogspot.com
+        </NavigateUrl>
+        <AlternateText>AdRotator Control sample ads
+        </AlternateText>
+        <Impressions>30</Impressions>
+        <Keyword>Asp.Net</Keyword>
+      </Ad>
+     </Advertisements>
