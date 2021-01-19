@@ -1,0 +1,22 @@
+<style type="text/css">
+.class1
+{
+font-size:120%;
+font-weight: bold;
+color:green;
+}
+</style>
+<script type="text/javascript" src="http://www.hscripts.com/tutorials/jquery/jquery.js"></script>
+<script type="text/javascript">
+function test(){
+  $('h4').animate({
+  opacity: 0.50,
+  left: '+=50',
+  height: 'toggle'
+});
+};
+</script>
+<h1>Welcome to Hscripts.com</h1>
+<h4 class="class1">Hscripts is praised as best free webmaster resources online, by our users.</h4>
+<h4>Free website content that help to develop, build, promote and maintain a web site. </h4>
+<input type="button" class="btntest" value="Test" onclick="test();"><br><br>
